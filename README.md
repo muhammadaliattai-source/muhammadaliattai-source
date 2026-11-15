@@ -1,87 +1,64 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Mohamed Ali Attia — Communications & Technology Engineering Student" />
+  <img src="./assets/v2/hero.svg" width="100%" alt="Mohamed Ali Attia — Communications & Technology Engineering · Network Security · Arabic-market operations" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=640&lines=Communications+%26+Technology+Engineering+Student;Network+Security+%7C+CCNA+%7C+CCNP;Arabic+Market+Operations+%40+Siya;Open+to+remote+opportunities" alt="Typing SVG" />
+  <a href="#about"><img src="./assets/v2/nav-about.svg" width="15.8%" alt="01 About" /></a>
+  <a href="#journey"><img src="./assets/v2/nav-journey.svg" width="15.8%" alt="02 Journey" /></a>
+  <a href="#toolkit"><img src="./assets/v2/nav-toolkit.svg" width="15.8%" alt="03 Toolkit" /></a>
+  <a href="#projects"><img src="./assets/v2/nav-projects.svg" width="15.8%" alt="04 Projects" /></a>
+  <a href="#activity"><img src="./assets/v2/nav-activity.svg" width="15.8%" alt="05 Activity" /></a>
+  <a href="#contact"><img src="./assets/v2/nav-contact.svg" width="15.8%" alt="06 Contact" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=muhammadaliattai-source&label=Profile%20views&color=22d3ee&style=for-the-badge" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Location-Egypt-a855f7?style=for-the-badge" alt="Egypt" />
-  <img src="https://img.shields.io/badge/Status-Open%20to%20remote%20work-34d399?style=for-the-badge" alt="Open to remote work" />
+  <img src="./assets/v2/kpis.svg" width="100%" alt="4+ years in operations · 5 partner agencies · 6 supporters · 3 security tracks" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
-
-## 👨‍💻 About Me
-
-<p align="center">
-  <img src="./assets/about.svg" width="100%" alt="whoami terminal and workspace illustration" />
-</p>
-
-- 🎓 **Communications & Technology Engineering** student at **Nile Academy for Engineering & Technology** — class of 2029
-- 💼 **Arabic Market Operations** at **Siya** (voice social app, MENA) since 2022 — managing 5 partner agencies & 6 supporters, verifying users, and resolving complaints end to end
-- 🔐 Studied **Network Security**, **CCNA** and **CCNP**; comfortable on **Linux** and **Windows**
-- 🌍 Working day to day with an international management & tech team
-- 📫 Reach me at **muhammadaliattai@gmail.com**
+<a name="about"></a>
+<p align="center"><img src="./assets/v2/section-about.svg" width="100%" alt="01 About" /></p>
+<p align="center"><img src="./assets/v2/about.svg" width="100%" alt="ID card and bio" /></p>
 
 <details>
-<summary><b>🇪🇬 نبذة بالعربي</b></summary>
+<summary><b>نبذة بالعربي</b></summary>
 <br>
 <div dir="rtl">
 
-أنا **محمد علي عطية**، طالب هندسة اتصالات وتكنولوجيا في **أكاديمية النيل للهندسة والتكنولوجيا**.
-بشتغل في **عمليات السوق العربي** في تطبيق **Siya** للتواصل الصوتي من 2022، ومهتم بـ **أمن الشبكات** (CCNA · CCNP) وبناء تطبيقات مفيدة.
-متاح للعمل **عن بُعد**.
+أنا **محمد علي عطية**، طالب هندسة اتصالات وتكنولوجيا في **أكاديمية النيل للهندسة والتكنولوجيا** (دفعة 2029).
+بشتغل في **عمليات السوق العربي** في تطبيق **Siya** للتواصل الصوتي من 2022: بدير الوكالات الشريكة والداعمين، وبتحقق من المستخدمين، وبتابع الشكاوى لحد ما تتقفل.
+مهتم بـ **أمن الشبكات** (CCNA · CCNP) وبعمل مشاريع ويب. متاح للعمل **عن بُعد** وأقدر أبدأ فورًا.
 
 </div>
 </details>
 
-<img src="./assets/divider.svg" width="100%" />
+<a name="journey"></a>
+<p align="center"><img src="./assets/v2/section-journey.svg" width="100%" alt="02 Journey" /></p>
+<p align="center"><img src="./assets/v2/journey.svg" width="100%" alt="Timeline from joining Siya in 2022 to graduation in 2029" /></p>
 
-## 🛠️ Tech Stack
+<a name="toolkit"></a>
+<p align="center"><img src="./assets/v2/section-toolkit.svg" width="100%" alt="03 Toolkit" /></p>
+<p align="center"><img src="./assets/v2/toolkit.svg" width="100%" alt="Network, Systems, Build and Operations skills" /></p>
 
+<a name="projects"></a>
+<p align="center"><img src="./assets/v2/section-projects.svg" width="100%" alt="04 Projects" /></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,windows,bash,py,html,css,js,flutter,dart,git,github,vscode&perline=12" alt="Skills" />
+  <a href="https://github.com/muhammadaliattai-source/oscar-app"><img src="./assets/v2/project-oscar.svg" width="100%" alt="Oscar — full-stack social media app" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/muhammadaliattai-source/mr-one"><img src="./assets/v2/project-mrone.svg" width="49.4%" alt="Mr. One — recharge agency platform" /></a>
+  <a href="https://github.com/muhammadaliattai-source/fatwa"><img src="./assets/v2/project-fatwa.svg" width="49.4%" alt="Fatwa — agency landing page" /></a>
 </p>
 
+<a name="activity"></a>
+<p align="center"><img src="./assets/v2/section-activity.svg" width="100%" alt="05 Activity" /></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Cisco-CCNA-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNA" />
-  <img src="https://img.shields.io/badge/Cisco-CCNP-0b6e99?style=for-the-badge&logo=cisco&logoColor=white" alt="CCNP" />
-  <img src="https://img.shields.io/badge/Network-Security-ec4899?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="Network Security" />
-  <img src="https://img.shields.io/badge/Operations-Management-a855f7?style=for-the-badge" alt="Operations" />
-  <img src="https://img.shields.io/badge/Excel-Reporting-217346?style=for-the-badge" alt="Excel" />
+  <img src="https://streak-stats.demolab.com?user=muhammadaliattai-source&background=0b0d13&border=1d2130&border_radius=22&stroke=1d2130&ring=ff6a3d&fire=ffc857&currStreakNum=ece9e4&currStreakLabel=ff6a3d&sideNums=ece9e4&sideLabels=8a90a2&dates=4b5164&card_width=1200&card_height=220" width="100%" alt="GitHub contribution streak" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
-
-## 🚀 Featured Projects
-
+<a name="contact"></a>
+<p align="center"><img src="./assets/v2/section-contact.svg" width="100%" alt="06 Contact" /></p>
 <p align="center">
-  <a href="https://github.com/muhammadaliattai-source/oscar-app"><img src="./assets/project-oscar.svg" width="32%" alt="Oscar — full-stack social media app" /></a>
-  <a href="https://github.com/muhammadaliattai-source/mr-one"><img src="./assets/project-mrone.svg" width="32%" alt="Mr. One — recharge agency platform" /></a>
-  <a href="https://github.com/muhammadaliattai-source/fatwa"><img src="./assets/project-fatwa.svg" width="32%" alt="Fatwa — agency landing page" /></a>
+  <a href="mailto:muhammadaliattai@gmail.com"><img src="./assets/v2/contact.svg" width="100%" alt="Email muhammadaliattai@gmail.com" /></a>
 </p>
 
-<img src="./assets/divider.svg" width="100%" />
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=muhammadaliattai-source&hide_border=true&background=0d1117&stroke=30363d&ring=a855f7&fire=ec4899&currStreakNum=f1f5f9&currStreakLabel=22d3ee&sideNums=f1f5f9&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak" />
-</p>
-
-<img src="./assets/divider.svg" width="100%" />
-
-## 🤝 Let's Connect
-
-<p align="center">
-  <a href="mailto:muhammadaliattai@gmail.com"><img src="https://img.shields.io/badge/Gmail-Email%20me-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/muhammadaliattai-source"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
-
-<p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Thanks for visiting" />
-</p>
+<p align="center"><img src="./assets/v2/footer.svg" width="100%" alt="Thanks for visiting" /></p>
