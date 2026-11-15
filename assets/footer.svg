@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Thanks for visiting">
+<defs>
+  <linearGradient id="w1" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+  <linearGradient id="w2" x1="0" x2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+  <linearGradient id="w3" x1="0" x2="1"><stop offset="0" stop-color="#1e1b4b"/><stop offset="1" stop-color="#3b0764"/></linearGradient>
+  <clipPath id="c"><rect width="1200" height="190" rx="28"/></clipPath>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,'DejaVu Sans',sans-serif}
+  @keyframes mv{to{transform:translateX(-1200px)}}
+  @keyframes fade{0%,100%{opacity:.75}50%{opacity:1}}
+</style>
+<g clip-path="url(#c)">
+  <g style="animation:mv 14s linear infinite"><path d="M0 92 q150 -22 300 0 t300 0 q150 -22 300 0 t300 0 q150 -22 300 0 t300 0 q150 -22 300 0 t300 0 V190 H0 Z" fill="url(#w1)" opacity=".35"/></g>
+  <g style="animation:mv 9s linear infinite"><path d="M0 112 q150 -18 300 0 t300 0 q150 -18 300 0 t300 0 q150 -18 300 0 t300 0 q150 -18 300 0 t300 0 V190 H0 Z" fill="url(#w2)" opacity=".45"/></g>
+  <g style="animation:mv 6s linear infinite"><path d="M0 132 q150 -14 300 0 t300 0 q150 -14 300 0 t300 0 q150 -14 300 0 t300 0 q150 -14 300 0 t300 0 V190 H0 Z" fill="url(#w3)"/></g>
+  <text x="600" y="168" text-anchor="middle" class="t" font-size="22" font-weight="700" fill="#f1f5f9" style="animation:fade 3s ease-in-out infinite">Thanks for visiting  ·  شكرًا لزيارتك</text>
+</g>
+</svg>

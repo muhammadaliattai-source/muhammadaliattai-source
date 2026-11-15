@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Mohamed Ali Attia — Communications &amp; Technology Engineering student, network security, operations">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#060a17"/><stop offset=".55" stop-color="#0d1533"/><stop offset="1" stop-color="#190b30"/>
+  </linearGradient>
+  <linearGradient id="brand" x1="0" x2="1">
+    <stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#e879f9"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#16213f" stroke-width="1"/>
+  </pattern>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+
+  <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1d4ed8"/><stop offset="1" stop-color="#6d28d9"/>
+  </linearGradient>
+  <clipPath id="card"><rect width="1200" height="420" rx="28"/></clipPath>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace}
+  
+  .fb{transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes spinr{to{transform:rotate(-360deg)}}
+  @keyframes dash{to{stroke-dashoffset:-48}}
+
+  @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes scan{0%{transform:translateY(-60px);opacity:0}20%,80%{opacity:.9}100%{transform:translateY(60px);opacity:0}}
+  @keyframes ring{0%{transform:scale(.6);opacity:.8}100%{transform:scale(1.5);opacity:0}}
+</style>
+<g clip-path="url(#card)">
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)" opacity=".55"/>
+  <circle cx="935" cy="212" r="170" fill="#4f46e5" opacity=".35" filter="url(#blur)"/>
+  <circle cx="160" cy="420" r="160" fill="#22d3ee" opacity=".12" filter="url(#blur)"/>
+  <circle cx="1180" cy="0" r="140" fill="#ec4899" opacity=".16" filter="url(#blur)"/>
+  <circle cx="640" cy="60" r="1.4" fill="#fff" style="animation:pulse 3s ease-in-out 0s infinite"/><circle cx="720" cy="380" r="1.2" fill="#fff" style="animation:pulse 4s ease-in-out 1s infinite"/><circle cx="1150" cy="60" r="1.6" fill="#fff" style="animation:pulse 3.5s ease-in-out 0.5s infinite"/><circle cx="1160" cy="360" r="1.2" fill="#fff" style="animation:pulse 2.8s ease-in-out 1.2s infinite"/><circle cx="560" cy="390" r="1" fill="#fff" style="animation:pulse 3.2s ease-in-out 0.8s infinite"/><circle cx="450" cy="40" r="1.3" fill="#fff" style="animation:pulse 4.2s ease-in-out 0.3s infinite"/><circle cx="780" cy="30" r="1" fill="#fff" style="animation:pulse 3s ease-in-out 2s infinite"/><circle cx="1100" cy="400" r="1.1" fill="#fff" style="animation:pulse 3.6s ease-in-out 1.6s infinite"/><text x="705" y="70" class="m" font-size="13" fill="#22d3ee" fill-opacity=".18" style="animation:pulse 5s ease-in-out infinite">10110</text><text x="1110" y="130" class="m" font-size="13" fill="#22d3ee" fill-opacity=".18" style="animation:pulse 6s ease-in-out infinite">0101</text><text x="1085" y="395" class="m" font-size="13" fill="#22d3ee" fill-opacity=".18" style="animation:pulse 4.5s ease-in-out infinite">1101</text><text x="1150" y="255" class="m" font-size="13" fill="#22d3ee" fill-opacity=".18" style="animation:pulse 5.5s ease-in-out infinite">011</text>
+
+  <!-- text block -->
+  <g style="animation:rise .8s .1s both">
+    <rect x="70" y="72" width="246" height="34" rx="17" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".5"/>
+    <circle cx="92" cy="89" r="5" fill="#34d399" style="animation:pulse 1.6s infinite"/>
+    <text x="106" y="94.5" class="t" font-size="14" font-weight="700" letter-spacing="1.5" fill="#34d399">OPEN TO REMOTE WORK</text>
+  </g>
+  <text x="72" y="160" class="t" font-size="26" fill="#94a3b8" style="animation:rise .8s .3s both">Hi there, I'm</text>
+  <text x="68" y="222" class="t" font-size="60" font-weight="800" fill="url(#brand)" style="animation:rise .8s .5s both">Mohamed Ali Attia</text>
+  <text x="72" y="266" class="t" font-size="21" fill="#cbd5e1" style="animation:rise .8s .8s both">Communications &amp; Technology Engineering Student</text>
+  <g style="animation:rise .8s 1.10s both"><rect x="70" y="292" width="167" height="34" rx="17" fill="#22d3ee" fill-opacity=".1" stroke="#22d3ee" stroke-opacity=".55"/><text x="153.5" y="314.5" text-anchor="middle" class="t" font-size="15" font-weight="600" fill="#22d3ee">Network Security</text></g>
+<g style="animation:rise .8s 1.25s both"><rect x="249" y="292" width="124" height="34" rx="17" fill="#818cf8" fill-opacity=".1" stroke="#818cf8" stroke-opacity=".55"/><text x="311.0" y="314.5" text-anchor="middle" class="t" font-size="15" font-weight="600" fill="#818cf8">CCNA · CCNP</text></g>
+<g style="animation:rise .8s 1.40s both"><rect x="385" y="292" width="159" height="34" rx="17" fill="#34d399" fill-opacity=".1" stroke="#34d399" stroke-opacity=".55"/><text x="464.5" y="314.5" text-anchor="middle" class="t" font-size="15" font-weight="600" fill="#34d399">Linux &amp; Windows</text></g>
+<g style="animation:rise .8s 1.55s both"><rect x="556" y="292" width="176" height="34" rx="17" fill="#ec4899" fill-opacity=".1" stroke="#ec4899" stroke-opacity=".55"/><text x="644.0" y="314.5" text-anchor="middle" class="t" font-size="15" font-weight="600" fill="#ec4899">Operations @ Siya</text></g>
+  <g style="animation:rise .8s 1.8s both">
+    <text x="72" y="374" class="m" font-size="17" fill="#64748b"><tspan fill="#22d3ee">❯</tspan> securing networks · running operations · building apps <tspan fill="#22d3ee" style="animation:blink 1s steps(1) infinite">▌</tspan></text>
+  </g>
+
+  <!-- network illustration -->
+  <g class="fb" style="animation:spin 40s linear infinite"><circle cx="935" cy="212" r="160" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="3 9"/></g>
+  <g class="fb" style="animation:spinr 26s linear infinite"><circle cx="935" cy="212" r="115" fill="none" stroke="#4338ca" stroke-opacity=".6" stroke-width="1.5" stroke-dasharray="40 18 6 18"/></g>
+  <line x1="812.4" y1="109.2" x2="935" y2="212" stroke="#22d3ee" stroke-opacity=".45" stroke-width="2" stroke-dasharray="6 10" style="animation:dash 1.6s linear infinite"/><line x1="1076.3" y1="136.9" x2="935" y2="212" stroke="#818cf8" stroke-opacity=".45" stroke-width="2" stroke-dasharray="6 10" style="animation:dash 1.6s linear infinite"/><line x1="1061.1" y1="310.5" x2="935" y2="212" stroke="#ec4899" stroke-opacity=".45" stroke-width="2" stroke-dasharray="6 10" style="animation:dash 1.6s linear infinite"/><line x1="812.4" y1="314.8" x2="935" y2="212" stroke="#34d399" stroke-opacity=".45" stroke-width="2" stroke-dasharray="6 10" style="animation:dash 1.6s linear infinite"/><line x1="775.1" y1="206.4" x2="935" y2="212" stroke="#fbbf24" stroke-opacity=".45" stroke-width="2" stroke-dasharray="6 10" style="animation:dash 1.6s linear infinite"/>
+  <circle r="5" fill="#22d3ee" filter="url(#glow)"><animateMotion dur="2.40s" repeatCount="indefinite" path="M812.4 109.2 L935 212" begin="0.0s"/><animate attributeName="opacity" values="0;1;1;0" dur="2.40s" repeatCount="indefinite" begin="0.0s"/></circle><circle r="5" fill="#818cf8" filter="url(#glow)"><animateMotion dur="2.75s" repeatCount="indefinite" path="M935 212 L1076.3 136.9" begin="0.4s"/><animate attributeName="opacity" values="0;1;1;0" dur="2.75s" repeatCount="indefinite" begin="0.4s"/></circle><circle r="5" fill="#ec4899" filter="url(#glow)"><animateMotion dur="3.10s" repeatCount="indefinite" path="M1061.1 310.5 L935 212" begin="0.8s"/><animate attributeName="opacity" values="0;1;1;0" dur="3.10s" repeatCount="indefinite" begin="0.8s"/></circle><circle r="5" fill="#34d399" filter="url(#glow)"><animateMotion dur="3.45s" repeatCount="indefinite" path="M935 212 L812.4 314.8" begin="1.2s"/><animate attributeName="opacity" values="0;1;1;0" dur="3.45s" repeatCount="indefinite" begin="1.2s"/></circle><circle r="5" fill="#fbbf24" filter="url(#glow)"><animateMotion dur="3.80s" repeatCount="indefinite" path="M775.1 206.4 L935 212" begin="1.6s"/><animate attributeName="opacity" values="0;1;1;0" dur="3.80s" repeatCount="indefinite" begin="1.6s"/></circle>
+  <circle cx="935" cy="212" r="70" fill="none" stroke="#22d3ee" stroke-width="2" class="fb" style="animation:ring 2.8s ease-out infinite"/>
+  <circle cx="935" cy="212" r="70" fill="none" stroke="#a855f7" stroke-width="2" class="fb" style="animation:ring 2.8s ease-out 1.4s infinite"/>
+  <g class="fb" style="animation:float 5s ease-in-out infinite">
+    <path d="M935 124 L1005 152 V214 C1005 262 975 294 935 310 C895 294 865 262 865 214 V152 Z" fill="url(#shield)" stroke="#22d3ee" stroke-width="3" filter="url(#glow)"/>
+    <path d="M935 142 L989 164 V214 C989 252 965 278 935 291 C905 278 881 252 881 214 V164 Z" fill="#0b1226" fill-opacity=".55" stroke="#93c5fd" stroke-opacity=".35"/>
+    <path d="M919 206 V192 a16 16 0 0 1 32 0 V206" fill="none" stroke="#e0f2fe" stroke-width="6" stroke-linecap="round"/>
+    <rect x="908" y="204" width="54" height="44" rx="9" fill="#e0f2fe"/>
+    <circle cx="935" cy="221" r="6" fill="#1e3a8a"/><rect x="932.5" y="223" width="5" height="13" rx="2" fill="#1e3a8a"/>
+    <clipPath id="sh"><path d="M935 142 L989 164 V214 C989 252 965 278 935 291 C905 278 881 252 881 214 V164 Z"/></clipPath>
+    <g clip-path="url(#sh)"><rect x="875" y="212" width="120" height="3" fill="#22d3ee" style="animation:scan 2.6s ease-in-out infinite"/></g>
+  </g>
+  <g transform="translate(812.4 109.2)"><g class="fb" style="animation:float 4.0s ease-in-out 0.0s infinite"><circle r="31" fill="#0b1226" stroke="#22d3ee" stroke-width="2"/><circle r="31" fill="#22d3ee" fill-opacity=".08"/><rect x="-15" y="-16" width="30" height="13" rx="3" fill="none" stroke="#22d3ee" stroke-width="2.2"/><rect x="-15" y="3" width="30" height="13" rx="3" fill="none" stroke="#22d3ee" stroke-width="2.2"/><circle cx="-8" cy="-9.5" r="2" fill="#22d3ee" style="animation:pulse 1s infinite"/><circle cx="-8" cy="9.5" r="2" fill="#22d3ee" style="animation:pulse 1.3s .4s infinite"/><line x1="0" y1="-9.5" x2="9" y2="-9.5" stroke="#22d3ee" stroke-width="2"/><line x1="0" y1="9.5" x2="9" y2="9.5" stroke="#22d3ee" stroke-width="2"/></g></g><g transform="translate(1076.3 136.9)"><g class="fb" style="animation:float 4.6s ease-in-out 0.3s infinite"><circle r="31" fill="#0b1226" stroke="#818cf8" stroke-width="2"/><circle r="31" fill="#818cf8" fill-opacity=".08"/><path d="M-13 10 H12 a9 9 0 0 0 0-18 a12 12 0 0 0-23-1 a9.5 9.5 0 0 0-2 19 Z" fill="none" stroke="#818cf8" stroke-width="2.4" stroke-linejoin="round"/></g></g><g transform="translate(1061.1 310.5)"><g class="fb" style="animation:float 5.2s ease-in-out 0.6s infinite"><circle r="31" fill="#0b1226" stroke="#ec4899" stroke-width="2"/><circle r="31" fill="#ec4899" fill-opacity=".08"/><rect x="-14" y="-13" width="28" height="19" rx="2.5" fill="none" stroke="#ec4899" stroke-width="2.2"/><path d="M-19 10 H19 L16 15 H-16 Z" fill="#ec4899"/><path d="M-8 -6 l-4 3 l4 3 M8 -6 l4 3 l-4 3" fill="none" stroke="#ec4899" stroke-width="1.8"/></g></g><g transform="translate(812.4 314.8)"><g class="fb" style="animation:float 5.8s ease-in-out 0.9s infinite"><circle r="31" fill="#0b1226" stroke="#34d399" stroke-width="2"/><circle r="31" fill="#34d399" fill-opacity=".08"/><rect x="-10" y="-17" width="20" height="34" rx="4" fill="none" stroke="#34d399" stroke-width="2.2"/><circle cx="0" cy="11" r="2" fill="#34d399"/><rect x="-6" y="-8" width="2.4" height="10" rx="1" fill="#34d399" class="fb" style="animation:eq 0.60s ease-in-out 0.0s infinite alternate"/><rect x="-2" y="-8" width="2.4" height="10" rx="1" fill="#34d399" class="fb" style="animation:eq 0.75s ease-in-out 0.1s infinite alternate"/><rect x="2" y="-8" width="2.4" height="10" rx="1" fill="#34d399" class="fb" style="animation:eq 0.90s ease-in-out 0.2s infinite alternate"/><rect x="6" y="-8" width="2.4" height="10" rx="1" fill="#34d399" class="fb" style="animation:eq 1.05s ease-in-out 0.3s infinite alternate"/><style>@keyframes eq{from{transform:scaleY(.3)}to{transform:scaleY(1)}}</style></g></g><g transform="translate(775.1 206.4)"><g class="fb" style="animation:float 6.4s ease-in-out 1.2s infinite"><circle r="31" fill="#0b1226" stroke="#fbbf24" stroke-width="2"/><circle r="31" fill="#fbbf24" fill-opacity=".08"/><rect x="-17" y="0" width="34" height="12" rx="3" fill="none" stroke="#fbbf24" stroke-width="2.2"/><line x1="-10" y1="0" x2="-14" y2="-14" stroke="#fbbf24" stroke-width="2.2" stroke-linecap="round"/><line x1="10" y1="0" x2="14" y2="-14" stroke="#fbbf24" stroke-width="2.2" stroke-linecap="round"/><circle cx="-9" cy="6" r="1.8" fill="#fbbf24" style="animation:pulse 0.7s 0.0s infinite"/><circle cx="-3" cy="6" r="1.8" fill="#fbbf24" style="animation:pulse 0.9s 0.2s infinite"/><circle cx="3" cy="6" r="1.8" fill="#fbbf24" style="animation:pulse 1.1s 0.4s infinite"/><circle cx="9" cy="6" r="1.8" fill="#fbbf24" style="animation:pulse 1.3s 0.6s infinite"/></g></g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="418.5" rx="27.5" fill="none" stroke="url(#brand)" stroke-opacity=".5" stroke-width="1.5"/>
+</svg>

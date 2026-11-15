@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-label="Terminal introducing Mohamed Ali Attia next to an illustrated workspace">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#060a17"/><stop offset=".55" stop-color="#0d1533"/><stop offset="1" stop-color="#190b30"/>
+  </linearGradient>
+  <linearGradient id="brand" x1="0" x2="1">
+    <stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#e879f9"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#16213f" stroke-width="1"/>
+  </pattern>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+<clipPath id="card"><rect width="1200" height="450" rx="28"/></clipPath></defs>
+<style>
+  .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .m{font-family:'JetBrains Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace}
+  
+  .fb{transform-box:fill-box;transform-origin:center}
+  @keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  @keyframes spinr{to{transform:rotate(-360deg)}}
+  @keyframes dash{to{stroke-dashoffset:-48}}
+
+  .eqb{transform-box:fill-box;transform-origin:center}
+  @keyframes eq2{from{transform:scaleY(.25)}to{transform:scaleY(1)}}
+  @keyframes code{0%,100%{opacity:.85}50%{opacity:.35}}
+  @keyframes steam{0%{opacity:0;transform:translateY(8px)}30%{opacity:.7}100%{opacity:0;transform:translateY(-22px)}}
+  @keyframes key{0%,90%,100%{fill:#64748b}93%{fill:#22d3ee}}
+  @keyframes c0{0%,3.75%{transform:translateX(0)}7.94%,100%{transform:translateX(75px)}}@keyframes o0{0%,3.45%{opacity:0}3.75%,93%{opacity:1}97%,100%{opacity:0}}@keyframes o1{0%,9.50%{opacity:0;transform:translateX(-6px)}11.00%,93%{opacity:1;transform:translateX(0)}97%,100%{opacity:0}}@keyframes c2{0%,12.31%{transform:translateX(0)}21.31%,100%{transform:translateX(187px)}}@keyframes o2{0%,12.01%{opacity:0}12.31%,93%{opacity:1}97%,100%{opacity:0}}@keyframes o3{0%,22.88%{opacity:0;transform:translateX(-6px)}24.38%,93%{opacity:1;transform:translateX(0)}97%,100%{opacity:0}}@keyframes c4{0%,25.69%{transform:translateX(0)}35.13%,100%{transform:translateX(198px)}}@keyframes o4{0%,25.39%{opacity:0}25.69%,93%{opacity:1}97%,100%{opacity:0}}@keyframes o5{0%,36.69%{opacity:0;transform:translateX(-6px)}38.19%,93%{opacity:1;transform:translateX(0)}97%,100%{opacity:0}}@keyframes c6{0%,39.50%{transform:translateX(0)}45.88%,100%{transform:translateX(126px)}}@keyframes o6{0%,39.20%{opacity:0}39.50%,93%{opacity:1}97%,100%{opacity:0}}@keyframes o7{0%,47.44%{opacity:0;transform:translateX(-6px)}48.94%,93%{opacity:1;transform:translateX(0)}97%,100%{opacity:0}}@keyframes c8{0%,50.25%{transform:translateX(0)}56.19%,100%{transform:translateX(116px)}}@keyframes o8{0%,49.95%{opacity:0}50.25%,93%{opacity:1}97%,100%{opacity:0}}@keyframes o9{0%,57.75%{opacity:0;transform:translateX(-6px)}59.25%,93%{opacity:1;transform:translateX(0)}97%,100%{opacity:0}}@keyframes of{0%,60.56%{opacity:0}61.06%,93%{opacity:1}97%,100%{opacity:0}}
+</style>
+<g clip-path="url(#card)">
+  <rect width="1200" height="450" fill="url(#bg)"/>
+  <rect width="1200" height="450" fill="url(#grid)" opacity=".45"/>
+  <circle cx="960" cy="220" r="170" fill="#7c3aed" opacity=".22" filter="url(#blur)"/>
+  <circle cx="300" cy="440" r="150" fill="#22d3ee" opacity=".08" filter="url(#blur)"/>
+  <!-- terminal -->
+  <rect x="24" y="24" width="640" height="402" rx="16" fill="#0a1020" stroke="#22304f" stroke-width="1.5"/>
+  <path d="M24 40 a16 16 0 0 1 16 -16 h608 a16 16 0 0 1 16 16 v28 h-640 z" fill="#111a30"/>
+  <circle cx="48" cy="46" r="6.5" fill="#ff5f57"/><circle cx="70" cy="46" r="6.5" fill="#febc2e"/><circle cx="92" cy="46" r="6.5" fill="#28c840"/>
+  <text x="344.0" y="51" text-anchor="middle" class="m" font-size="13" fill="#64748b">mohamed@egypt: ~ — bash</text>
+  <g style="animation:o0 16.0s linear infinite"><text x="50" y="102" class="m" font-size="16"><tspan fill="#34d399">mohamed@egypt</tspan><tspan fill="#64748b">:</tspan><tspan fill="#3b82f6">~</tspan><tspan fill="#64748b">$ </tspan><tspan fill="#f8fafc">whoami</tspan></text><rect x="211" y="85" width="105" height="24" fill="#0a1020" style="animation:c0 16.0s linear infinite"/></g><text x="50" y="130" class="m" font-size="16" style="animation:o1 16.0s linear infinite"><tspan fill="#475569">→ </tspan><tspan fill="#f1f5f9">Mohamed Ali Attia</tspan><tspan fill="#94a3b8"> · Mansoura, Egypt</tspan></text><g style="animation:o2 16.0s linear infinite"><text x="50" y="163" class="m" font-size="16"><tspan fill="#34d399">mohamed@egypt</tspan><tspan fill="#64748b">:</tspan><tspan fill="#3b82f6">~</tspan><tspan fill="#64748b">$ </tspan><tspan fill="#f8fafc">cat education.txt</tspan></text><rect x="211" y="146" width="217" height="24" fill="#0a1020" style="animation:c2 16.0s linear infinite"/></g><text x="50" y="191" class="m" font-size="16" style="animation:o3 16.0s linear infinite"><tspan fill="#475569">→ </tspan><tspan fill="#22d3ee">Comms &amp; Technology Engineering</tspan><tspan fill="#94a3b8"> @ Nile Academy</tspan></text><g style="animation:o4 16.0s linear infinite"><text x="50" y="224" class="m" font-size="16"><tspan fill="#34d399">mohamed@egypt</tspan><tspan fill="#64748b">:</tspan><tspan fill="#3b82f6">~</tspan><tspan fill="#64748b">$ </tspan><tspan fill="#f8fafc">cat experience.txt</tspan></text><rect x="211" y="207" width="228" height="24" fill="#0a1020" style="animation:c4 16.0s linear infinite"/></g><text x="50" y="252" class="m" font-size="16" style="animation:o5 16.0s linear infinite"><tspan fill="#475569">→ </tspan><tspan fill="#ec4899">Arabic Market Operations</tspan><tspan fill="#94a3b8"> @ Siya · 2022 → now</tspan></text><g style="animation:o6 16.0s linear infinite"><text x="50" y="285" class="m" font-size="16"><tspan fill="#34d399">mohamed@egypt</tspan><tspan fill="#64748b">:</tspan><tspan fill="#3b82f6">~</tspan><tspan fill="#64748b">$ </tspan><tspan fill="#f8fafc">ls ./skills</tspan></text><rect x="211" y="268" width="156" height="24" fill="#0a1020" style="animation:c6 16.0s linear infinite"/></g><text x="50" y="313" class="m" font-size="16" style="animation:o7 16.0s linear infinite"><tspan fill="#475569">→ </tspan><tspan fill="#34d399">network-security  ccna  ccnp  linux  windows</tspan></text><g style="animation:o8 16.0s linear infinite"><text x="50" y="346" class="m" font-size="16"><tspan fill="#34d399">mohamed@egypt</tspan><tspan fill="#64748b">:</tspan><tspan fill="#3b82f6">~</tspan><tspan fill="#64748b">$ </tspan><tspan fill="#f8fafc">echo $GOAL</tspan></text><rect x="211" y="329" width="146" height="24" fill="#0a1020" style="animation:c8 16.0s linear infinite"/></g><text x="50" y="374" class="m" font-size="16" style="animation:o9 16.0s linear infinite"><tspan fill="#475569">→ </tspan><tspan fill="#fbbf24">Secure networks. Smooth operations. Useful apps.</tspan></text><g style="animation:of 16.0s linear infinite"><text x="50" y="407" class="m" font-size="16"><tspan fill="#34d399">mohamed@egypt</tspan><tspan fill="#64748b">:</tspan><tspan fill="#3b82f6">~</tspan><tspan fill="#64748b">$</tspan></text><rect x="213" y="392" width="9" height="19" fill="#22d3ee" style="animation:blink 1s steps(1) infinite"/></g>
+  
+  <g>
+    <!-- window with moon -->
+    <rect x="710" y="40" width="150" height="120" rx="12" fill="#0b1430" stroke="#1e2a4f" stroke-width="3"/>
+    <line x1="785" y1="40" x2="785" y2="160" stroke="#1e2a4f" stroke-width="3"/>
+    <line x1="710" y1="100" x2="860" y2="100" stroke="#1e2a4f" stroke-width="3"/>
+    <circle cx="825" cy="72" r="16" fill="#fde68a"/><circle cx="832" cy="66" r="14" fill="#0b1430"/>
+    <circle cx="740" cy="64" r="1.6" fill="#fff" style="animation:pulse 2s infinite"/><circle cx="760" cy="130" r="1.3" fill="#fff" style="animation:pulse 2.6s .6s infinite"/><circle cx="840" cy="135" r="1.4" fill="#fff" style="animation:pulse 3s 1s infinite"/>
+
+    <!-- voice-room bubble -->
+    <g class="fb" style="animation:float 4s ease-in-out infinite">
+      <rect x="1020" y="54" width="110" height="66" rx="18" fill="#1a1238" stroke="#ec4899" stroke-width="2"/>
+      <path d="M1040 120 l-6 16 l20 -16 z" fill="#1a1238" stroke="#ec4899" stroke-width="2" stroke-linejoin="round"/>
+      <rect x="1039" y="119" width="18" height="3" fill="#1a1238"/>
+      <rect x="1044" y="70" width="6" height="34" rx="3" fill="#ec4899" class="eqb" style="animation:eq2 0.50s ease-in-out 0.00s infinite alternate"/><rect x="1055" y="70" width="6" height="34" rx="3" fill="#ec4899" class="eqb" style="animation:eq2 0.67s ease-in-out 0.09s infinite alternate"/><rect x="1066" y="70" width="6" height="34" rx="3" fill="#ec4899" class="eqb" style="animation:eq2 0.84s ease-in-out 0.18s infinite alternate"/><rect x="1077" y="70" width="6" height="34" rx="3" fill="#ec4899" class="eqb" style="animation:eq2 0.50s ease-in-out 0.27s infinite alternate"/><rect x="1088" y="70" width="6" height="34" rx="3" fill="#ec4899" class="eqb" style="animation:eq2 0.67s ease-in-out 0.36s infinite alternate"/><rect x="1099" y="70" width="6" height="34" rx="3" fill="#ec4899" class="eqb" style="animation:eq2 0.84s ease-in-out 0.45s infinite alternate"/><rect x="1110" y="70" width="6" height="34" rx="3" fill="#ec4899" class="eqb" style="animation:eq2 0.50s ease-in-out 0.54s infinite alternate"/>
+    </g>
+
+    <!-- monitor -->
+    <rect x="820" y="104" width="230" height="160" rx="14" fill="#0f172a" stroke="#334155" stroke-width="4"/>
+    <rect x="830" y="114" width="210" height="140" rx="8" fill="#0a1020"/>
+    <rect x="840" y="128" width="60" height="7" rx="3.5" fill="#ec4899" opacity=".85" class="fb" style="animation:code 3.2s ease-in-out 0.00s infinite"/><rect x="854" y="144" width="110" height="7" rx="3.5" fill="#22d3ee" opacity=".85" class="fb" style="animation:code 3.2s ease-in-out 0.18s infinite"/><rect x="854" y="160" width="80" height="7" rx="3.5" fill="#818cf8" opacity=".85" class="fb" style="animation:code 3.2s ease-in-out 0.36s infinite"/><rect x="868" y="176" width="96" height="7" rx="3.5" fill="#34d399" opacity=".85" class="fb" style="animation:code 3.2s ease-in-out 0.54s infinite"/><rect x="868" y="192" width="54" height="7" rx="3.5" fill="#fbbf24" opacity=".85" class="fb" style="animation:code 3.2s ease-in-out 0.72s infinite"/><rect x="854" y="208" width="120" height="7" rx="3.5" fill="#22d3ee" opacity=".85" class="fb" style="animation:code 3.2s ease-in-out 0.90s infinite"/><rect x="840" y="224" width="40" height="7" rx="3.5" fill="#ec4899" opacity=".85" class="fb" style="animation:code 3.2s ease-in-out 1.08s infinite"/><rect x="840" y="240" width="90" height="7" rx="3.5" fill="#818cf8" opacity=".85" class="fb" style="animation:code 3.2s ease-in-out 1.26s infinite"/>
+    <rect x="930" y="242" width="9" height="4" fill="#22d3ee" style="animation:blink 1s steps(1) infinite"/>
+    <rect x="922" y="264" width="26" height="40" fill="#334155"/>
+    <rect x="890" y="300" width="90" height="10" rx="5" fill="#475569"/>
+
+    <!-- router -->
+    <rect x="718" y="282" width="78" height="26" rx="7" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+    <line x1="732" y1="282" x2="726" y2="252" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="782" y1="282" x2="788" y2="252" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="734" cy="295" r="3" fill="#34d399" style="animation:pulse 0.60s 0.00s infinite"/><circle cx="746" cy="295" r="3" fill="#34d399" style="animation:pulse 0.85s 0.15s infinite"/><circle cx="758" cy="295" r="3" fill="#fbbf24" style="animation:pulse 1.10s 0.30s infinite"/><circle cx="770" cy="295" r="3" fill="#22d3ee" style="animation:pulse 1.35s 0.45s infinite"/><circle cx="782" cy="295" r="3" fill="#34d399" style="animation:pulse 1.60s 0.60s infinite"/>
+    <path d="M744 260.2 a12 12 0 0 1 24 0" fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" style="animation:pulse 1.8s ease-in-out 0.0s infinite"/><path d="M732 258.4 a24 24 0 0 1 48 0" fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" style="animation:pulse 1.8s ease-in-out 0.3s infinite"/><path d="M720 256.6 a36 36 0 0 1 72 0" fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" style="animation:pulse 1.8s ease-in-out 0.6s infinite"/>
+
+    <!-- mug -->
+    <path d="M1085 300 q-7 -12 0 -24 t0 -24" fill="none" stroke="#cbd5e1" stroke-width="2.5" stroke-linecap="round" opacity="0" style="animation:steam 2.6s ease-out 0.0s infinite"/><path d="M1095 300 q-7 -12 0 -24 t0 -24" fill="none" stroke="#cbd5e1" stroke-width="2.5" stroke-linecap="round" opacity="0" style="animation:steam 2.6s ease-out 0.7s infinite"/><path d="M1105 300 q-7 -12 0 -24 t0 -24" fill="none" stroke="#cbd5e1" stroke-width="2.5" stroke-linecap="round" opacity="0" style="animation:steam 2.6s ease-out 1.4s infinite"/>
+    <rect x="1076" y="302" width="36" height="40" rx="6" fill="#a855f7"/>
+    <path d="M1112 312 h7 a9 9 0 0 1 0 18 h-7" fill="none" stroke="#a855f7" stroke-width="5"/>
+    <text x="1094" y="328" text-anchor="middle" class="m" font-size="12" font-weight="700" fill="#f5f3ff">&lt;/&gt;</text>
+
+    <!-- plant -->
+    <path d="M1160 318 q-22 -30 -35 -54" fill="none" stroke="#34d399" stroke-width="7" stroke-linecap="round"/><path d="M1160 318 q-6 -30 -10 -70" fill="none" stroke="#34d399" stroke-width="7" stroke-linecap="round"/><path d="M1160 318 q12 -30 19 -62" fill="none" stroke="#34d399" stroke-width="7" stroke-linecap="round"/><path d="M1160 318 q26 -30 42 -40" fill="none" stroke="#34d399" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1142 316 h36 l-5 28 h-26 z" fill="#b45309"/>
+    <rect x="1139" y="312" width="42" height="8" rx="3" fill="#d97706"/>
+
+    <!-- desk -->
+    <rect x="690" y="342" width="490" height="16" rx="6" fill="#334155"/>
+    <rect x="690" y="342" width="490" height="5" rx="2.5" fill="#475569"/>
+    <rect x="716" y="358" width="12" height="70" fill="#1e293b"/><rect x="1142" y="358" width="12" height="70" fill="#1e293b"/>
+    <!-- keyboard -->
+    <rect x="860" y="322" width="150" height="16" rx="5" fill="#1e293b" stroke="#475569"/>
+    <rect x="866" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 0.00s infinite"/><rect x="878" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 0.37s infinite"/><rect x="890" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 0.74s infinite"/><rect x="902" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 1.11s infinite"/><rect x="914" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 1.48s infinite"/><rect x="926" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 1.85s infinite"/><rect x="938" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 0.02s infinite"/><rect x="950" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 0.39s infinite"/><rect x="962" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 0.76s infinite"/><rect x="974" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 1.13s infinite"/><rect x="986" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 1.50s infinite"/><rect x="998" y="327" width="8" height="6" rx="1.5" fill="#64748b" style="animation:key 2.2s 1.87s infinite"/>
+  </g>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="448.5" rx="27.5" fill="none" stroke="url(#brand)" stroke-opacity=".4" stroke-width="1.5"/>
+</svg>
