@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="250" viewBox="0 0 400 250" role="img" aria-label="Mr. One">
+<defs>
+  <linearGradient id="cb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1226"/><stop offset="1" stop-color="#130d2b"/></linearGradient>
+  <linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+  <filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
+  <clipPath id="c"><rect width="400" height="250" rx="20"/></clipPath>
+</defs>
+<style>
+  .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,'DejaVu Sans',sans-serif} .fb{transform-box:fill-box;transform-origin:center}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  @keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+  @keyframes sh{from{transform:translateX(-120px)}to{transform:translateX(520px)}}
+</style>
+<g clip-path="url(#c)">
+  <rect width="400" height="250" fill="url(#cb)"/>
+  <circle cx="350" cy="40" r="80" fill="#fbbf24" opacity=".25" filter="url(#b)"/>
+  <rect width="400" height="4" fill="url(#ac)"/>
+  <rect x="0" y="0" width="60" height="250" fill="#fff" opacity=".03" transform="skewX(-20)" style="animation:sh 5s ease-in-out infinite"/>
+  <g class="fb" style="animation:float 4s ease-in-out infinite"><g style="animation:float 3s ease-in-out infinite" class="fb"><circle cx="345" cy="52" r="22" fill="#f59e0b"/><circle cx="345" cy="52" r="15.8" fill="none" stroke="#fde68a" stroke-width="2"/><text x="345" y="59.9" text-anchor="middle" font-family="Arial" font-weight="800" font-size="22" fill="#fff7ed">$</text></g><g style="animation:float 3.8s ease-in-out infinite" class="fb"><circle cx="310" cy="92" r="15" fill="#f59e0b"/><circle cx="310" cy="92" r="10.8" fill="none" stroke="#fde68a" stroke-width="2"/><text x="310" y="97.4" text-anchor="middle" font-family="Arial" font-weight="800" font-size="15" fill="#fff7ed">$</text></g><g style="animation:float 2.6s ease-in-out infinite" class="fb"><circle cx="372" cy="98" r="12" fill="#f59e0b"/><circle cx="372" cy="98" r="8.6" fill="none" stroke="#fde68a" stroke-width="2"/><text x="372" y="102.3" text-anchor="middle" font-family="Arial" font-weight="800" font-size="12" fill="#fff7ed">$</text></g><path d="M286 40 l4 -9 l4 9 l9 4 l-9 4 l-4 9 l-4 -9 l-9 -4z" fill="#fde68a" style="animation:pulse 1.6s infinite"/></g>
+  <text x="24" y="62" class="t" font-size="24" font-weight="800" fill="#f1f5f9">Mr. One</text>
+  <text x="24" y="88" class="t" font-size="13" font-weight="600" fill="#fbbf24" letter-spacing=".5">RECHARGE AGENCY PLATFORM</text>
+  <text x="24" y="124" class="t" font-size="14" fill="#94a3b8">Coin packages, a price calculator, offers</text><text x="24" y="145" class="t" font-size="14" fill="#94a3b8">and a dashboard for Siya top-ups.</text>
+  <rect x="24" y="178" width="48" height="24" rx="12" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".4"/><text x="48.0" y="194" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#fbbf24">HTML</text><rect x="80" y="178" width="41" height="24" rx="12" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".4"/><text x="100.5" y="194" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#fbbf24">CSS</text><rect x="129" y="178" width="92" height="24" rx="12" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".4"/><text x="175.0" y="194" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#fbbf24">JavaScript</text><rect x="229" y="178" width="84" height="24" rx="12" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".4"/><text x="271.0" y="194" text-anchor="middle" class="t" font-size="12" font-weight="600" fill="#fbbf24">Dashboard</text>
+  <circle cx="30" cy="226" r="5.5" fill="#e34c26"/><text x="42" y="230.5" class="t" font-size="13" fill="#cbd5e1">HTML</text>
+  <text x="376" y="230.5" text-anchor="end" class="t" font-size="13" font-weight="600" fill="#fbbf24">View repo →</text>
+</g>
+<rect x=".75" y=".75" width="398.5" height="248.5" rx="19.5" fill="none" stroke="#fbbf24" stroke-opacity=".35" stroke-width="1.5"/>
+</svg>
