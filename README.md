@@ -59,10 +59,9 @@
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/muhammadaliattai-source/oscar-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muhammadaliattai-source&repo=oscar-app&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9" /></a>
-  <a href="https://github.com/muhammadaliattai-source/mr-one"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muhammadaliattai-source&repo=mr-one&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9" /></a>
-  <a href="https://github.com/muhammadaliattai-source/fatwa"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muhammadaliattai-source&repo=fatwa&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9" /></a>
-  <a href="https://github.com/muhammadaliattai-source/mronecoins"><img src="https://github-readme-stats.vercel.app/api/pin/?username=muhammadaliattai-source&repo=mronecoins&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9" /></a>
+  <a href="https://github.com/muhammadaliattai-source/oscar-app"><img src="./assets/project-oscar.svg" width="32%" alt="Oscar — full-stack social media app" /></a>
+  <a href="https://github.com/muhammadaliattai-source/mr-one"><img src="./assets/project-mrone.svg" width="32%" alt="Mr. One — recharge agency platform" /></a>
+  <a href="https://github.com/muhammadaliattai-source/fatwa"><img src="./assets/project-fatwa.svg" width="32%" alt="Fatwa — agency landing page" /></a>
 </p>
 
 <img src="./assets/divider.svg" width="100%" />
@@ -70,28 +69,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=muhammadaliattai-source&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=a855f7&text_color=c9d1d9" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=muhammadaliattai-source&layout=compact&langs_count=6&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9" alt="Top languages" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=muhammadaliattai-source&hide_border=true&background=0d1117&stroke=30363d&ring=a855f7&fire=ec4899&currStreakNum=f1f5f9&currStreakLabel=22d3ee&sideNums=f1f5f9&sideLabels=c9d1d9&dates=8b949e" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=muhammadaliattai-source&bg_color=0d1117&color=22d3ee&line=a855f7&point=f1f5f9&area=true&area_color=a855f7&hide_border=true" width="100%" alt="Contribution graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=muhammadaliattai-source&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=-1" alt="Trophies" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/muhammadaliattai-source/muhammadaliattai-source/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/muhammadaliattai-source/muhammadaliattai-source/output/github-snake.svg" />
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/muhammadaliattai-source/muhammadaliattai-source/output/github-snake-dark.svg" />
-  </picture>
 </p>
 
 <img src="./assets/divider.svg" width="100%" />
